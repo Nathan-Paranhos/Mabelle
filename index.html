@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mabelle Gourmet</title>
+    <meta name="description" content="Brownies artesanais feitos com amor. Peça agora e aproveite o melhor sabor!">
+    <meta name="keywords" content="brownie, gourmet, doces, chocolate, sobremesa">
+    <meta name="author" content="Np Silva">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+    <div class="app">
+        <header class="hero">
+            <div class="carousel">
+                <div class="carousel-container"></div>
+            </div>
+            <div class="hero-content">
+                <img src="logo.jpeg" alt="Mabelle Gourmet" class="logo animate-fade-in">
+                <h1 class="animate-slide-up">Mabelle Gourmet</h1>
+                <p class="animate-slide-up delay-200">Brownies tradicionais feitos com amor</p>
+                <button onclick="handleWhatsAppClick()" class="whatsapp-btn animate-bounce-subtle">
+                    <i data-lucide="message-circle"></i>
+                    Peça Agora
+                </button>
+            </div>
+        </header>
+
+        <section class="qualities">
+            <div class="qualities-grid">
+                <div class="quality-item animate-on-scroll">
+                    <i data-lucide="star"></i>
+                    <h3>Qualidade Premium</h3>
+                    <p>Ingredientes selecionados para o melhor sabor</p>
+                </div>
+                <div class="quality-item animate-on-scroll">
+                    <i data-lucide="clock"></i>
+                    <h3>Entrega Rápida</h3>
+                    <p>Seu pedido fresquinho no mesmo dia</p>
+                </div>
+                <div class="quality-item animate-on-scroll">
+                    <i data-lucide="gift"></i>
+                    <h3>Presente Perfeito</h3>
+                    <p>Embalagem especial para presentear</p>
+                </div>
+                <div class="quality-item animate-on-scroll">
+                    <i data-lucide="award"></i>
+                    <h3>Receita Exclusiva</h3>
+                    <p>Sabor único e irresistível</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="history">
+            <h2 class="animate-on-scroll">Nossa História</h2>
+            <div class="history-card animate-on-scroll">
+                <p>Somos um grupo de meninas unidas pelo sonho de celebrar nossa formatura do ensino médio de forma especial! Para tornar isso possível, decidimos colocar a mão na massa e vender deliciosos brownies tradicionais que vão conquistar seu paladar. Nosso objetivo é oferecer uma experiência única para cada cliente, garantindo que ninguém se arrependa de saborear essa maravilha.</p>
+                <div class="heart-container">
+                    <i data-lucide="heart"></i>
+                </div>
+            </div>
+        </section>
+
+        <section class="brownies">
+            <h2 class="animate-on-scroll">Nosso Brownie</h2>
+            <div class="brownie-card animate-on-scroll">
+                <div class="brownie-carousel">
+                    <div class="brownie-carousel-container"></div>
+                </div>
+                <div class="brownie-info">
+                    <h3>Brownie Tradicional</h3>
+                    <p>Nosso brownie tradicional é feito com chocolate premium, garantindo uma textura macia por dentro e crocante por fora. Uma experiência única de sabor que vai te conquistar!</p>
+                    <button onclick="handleWhatsAppClick()" class="whatsapp-btn">
+                        <i data-lucide="message-circle"></i>
+                        Pedir Agora
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact">
+            <h2 class="animate-on-scroll">Entre em Contato</h2>
+            <div class="contact-buttons">
+                <button onclick="handleInstagramClick()" class="instagram-btn animate-on-scroll">
+                    <i data-lucide="instagram"></i>
+                    Siga no Instagram
+                </button>
+                <button onclick="handleWhatsAppClick()" class="whatsapp-btn animate-on-scroll">
+                    <i data-lucide="message-circle"></i>
+                    Peça pelo WhatsApp
+                </button>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2024 Mabelle Gourmet. Todos os direitos reservados.</p>
+            <p>Feito com 💝 pelas formandas</p>
+            <p class="developer">Desenvolvido por Np Silva</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
