@@ -68,7 +68,7 @@ const carouselImages = [
   
 
   function handleWhatsAppClick() {
-    window.open('https://wa.me/5511976006464', '_blank');
+    window.open('https://wa.me/numeroaqui', '_blank');
   }
   
   function handleInstagramClick() {
